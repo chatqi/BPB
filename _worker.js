@@ -7,11 +7,11 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = '7fe63692-f236-4372-a828-0e4b0199df20';
 
 // https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
-const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
+const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'cdn.0578.eu.org', 'speedip.tuyoyo.link', 'hk.921219.xyz', 'hk2.921219.xyz', 'jp.921219.xyz', 'jp2.921219.xyz', 'cl.55188.eu.org', 'cf-cdn.tiktokcloud.top', 'qqq.achen.link', 'rn.cneupa.com', 'kr01.nttkk.com', 'jp01.nttkk.com', 'achk.cloudflarest.link', 'www.wuda.cf', '11.namesilo123.top', 'us02.nttkk.com', 'ru01.nttkk.com', 'tg.wxgqlfx.top', 'cmcc.34310889.xyz', 'cdn-seek-b090-2a5cee4bb04a.hk-cctv.com', '2.gogolemon.top', '1.gogolemon.top', '3.gogolemon.top', 'best.cdn.sqeven.cn', 'acsg3.cloudflarest.link', 'ss.moonriver.sbs', 'acjp2.cloudflarest.link', 'hk.anxray.top', 'hk.anxray.top.cdn.cloudflare.net', 'yxhg.s2.gay', 'hkcf.sky2005.link', 'hk.uu8.us.kg', 'dd.hza1128.us.kg', 'uu.zhongyoutc.com', '1.1818.pp.ua', 'max.jillmax1227.eu.org', '2.1818.pp.ua', 'cdn.jsdelivr.net', 'acsg.cloudflarest.link', 'sg.921219.xyz', 'sg2.921219.xyz', '3.1818.pp.ua', '4.1818.pp.ua', '5.1818.pp.ua', '7.1818.pp.ua', '8.1818.pp.ua', '9.1818.pp.ua', '10.1818.pp.ua', 'testhk.migoo.eu.org', 'hk.worker00001.cloudns.org', 'kg.worker00001.cloudns.org', 'sg.worker00001.cloudns.org', 'edgetunnel.anycast.eu.org'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
